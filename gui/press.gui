@@ -1,7 +1,7 @@
 script: "/gui/press.gui_script"
 fonts {
   name: "system_font"
-  font: "/builtins/fonts/system_font.font"
+  font: "/builtins/fonts/default.font"
 }
 textures {
   name: "Button"
@@ -74,6 +74,10 @@ nodes {
   template_node_child: false
   text_leading: 1.0
   text_tracking: 0.0
+  custom_type: 0
+  enabled: true
+  visible: true
+  material: ""
 }
 nodes {
   position {
@@ -136,6 +140,10 @@ nodes {
   template_node_child: false
   text_leading: 1.0
   text_tracking: 0.0
+  custom_type: 0
+  enabled: true
+  visible: true
+  material: ""
 }
 nodes {
   position {
@@ -190,6 +198,10 @@ nodes {
   alpha: 1.0
   template_node_child: false
   size_mode: SIZE_MODE_MANUAL
+  custom_type: 0
+  enabled: true
+  visible: true
+  material: ""
 }
 nodes {
   position {
@@ -211,15 +223,15 @@ nodes {
     w: 1.0
   }
   size {
-    x: 200.0
-    y: 200.0
+    x: 231.0
+    y: 211.0
     z: 0.0
     w: 1.0
   }
   color {
-    x: 0.101960786
-    y: 0.2
-    z: 0.6
+    x: 0.102
+    y: 0.102
+    z: 0.102
     w: 1.0
   }
   type: TYPE_PIE
@@ -234,8 +246,8 @@ nodes {
   layer: "btn"
   inherit_alpha: true
   outerBounds: PIEBOUNDS_ELLIPSE
-  innerRadius: 83.0
-  perimeterVertices: 18
+  innerRadius: 80.0
+  perimeterVertices: 34
   pieFillAngle: 360.0
   clipping_mode: CLIPPING_MODE_NONE
   clipping_visible: true
@@ -243,6 +255,10 @@ nodes {
   alpha: 1.0
   template_node_child: false
   size_mode: SIZE_MODE_MANUAL
+  custom_type: 0
+  enabled: true
+  visible: true
+  material: ""
 }
 nodes {
   position {
@@ -264,15 +280,15 @@ nodes {
     w: 1.0
   }
   size {
-    x: 193.0
-    y: 193.0
+    x: 218.0
+    y: 199.0
     z: 0.0
     w: 1.0
   }
   color {
-    x: 0.5019608
-    y: 0.6
-    z: 1.0
+    x: 0.302
+    y: 0.4
+    z: 0.8
     w: 1.0
   }
   type: TYPE_PIE
@@ -288,14 +304,18 @@ nodes {
   inherit_alpha: true
   outerBounds: PIEBOUNDS_ELLIPSE
   innerRadius: 87.0
-  perimeterVertices: 18
-  pieFillAngle: 0.0
+  perimeterVertices: 34
+  pieFillAngle: 360.0
   clipping_mode: CLIPPING_MODE_NONE
   clipping_visible: true
   clipping_inverted: false
   alpha: 1.0
   template_node_child: false
   size_mode: SIZE_MODE_MANUAL
+  custom_type: 0
+  enabled: true
+  visible: true
+  material: ""
 }
 layers {
   name: "text"

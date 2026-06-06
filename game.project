@@ -19,9 +19,9 @@ title = TimedPress
 compress_archive = 0
 
 [render]
-clear_color_red = 0.06
-clear_color_green = 0.03
-clear_color_blue = 0.19
+clear_color_red = 0.16
+clear_color_green = 0.13
+clear_color_blue = 0.3
 clear_color_alpha = 1.0
 
 [html5]
@@ -36,9 +36,6 @@ auto_finish_transactions = 0
 
 [input]
 use_accelerometer = 0
-
-[native_extension]
-app_manifest = /manifest/exclude.appmanifest
 
 [graphics]
 max_draw_calls = 1000
